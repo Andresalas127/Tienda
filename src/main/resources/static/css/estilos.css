@@ -7,3 +7,31 @@
     color: blue;
     font-weight: bold;
 }
+
+.enfasis {
+    background-color: buttonshadow;
+    color: red;
+        
+}
+
+a{
+    color: cyan;
+}
+a:hover {
+    background-color: green;
+    color:white;
+}
+
+a:active{
+    background-color: red;
+    color:black;
+}
+
+a:visited {
+   font-size: 20px;
+   
+}
+
+h1, p{
+    /*Propiedades*/
+}
