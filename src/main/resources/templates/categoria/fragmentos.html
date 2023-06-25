@@ -20,6 +20,13 @@
                         </button>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-3"> 
+                        <a th:href="@{/categoria/nuevo}"
+                           class="btn btn-info">
+                            <i class="fas fa-plus"></i> [[#{accion.nuevo}]]</a></td></tr>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -90,6 +97,7 @@
                                                 <a th:href="@{/categoria/modificar/}+${categoria.idCategoria}"
                                                    class="btn btn-success">
                                                     <i class="fas fa-pencil"></i> [[#{accion.actualizar}]]</a></td></tr>
+
                                     </tbody>
                                 </table>
                             </div>
